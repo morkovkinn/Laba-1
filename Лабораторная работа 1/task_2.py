@@ -7,6 +7,6 @@ char_weight = 4
 
 book_weight = pages * strings * chars * char_weight
 
-how_many_books = int(disk_cap_in_bytes // book_weight)
+how_many_books = int(disk_cap_in_bytes / book_weight)
 
 print("Количество книг, помещающихся на дискету:", how_many_books)
